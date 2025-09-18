@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer";
 import TeamMemberCard from "../components/TeamMemberCard.jsx";
 import ExpandedMemberPanel from "../components/ExpandedMemberPanel.jsx";
 import { allMembers } from "../data/members.js";
@@ -76,6 +77,7 @@ function TeamPage() {
           ))}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

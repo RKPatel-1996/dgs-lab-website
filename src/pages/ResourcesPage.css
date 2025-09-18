@@ -1,3 +1,26 @@
+.resource-search-container {
+  max-width: 600px;
+  margin: 0 auto 4rem auto;
+}
+
+/* We can reuse the existing .search-bar style from PublicationsPage.css */
+/* If you don't have it globally, you can add it here: */
+.search-bar {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.no-results-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  padding: 3rem 0;
+}
+
 .resources-content {
   max-width: 1100px;
   margin: 2rem auto;

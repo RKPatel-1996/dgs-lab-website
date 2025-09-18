@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import PhotoGallery from "../components/PhotoGallery"; // We will create this next
 import VideoGallery from "../components/VideoGallery"; // We will create this next
 import "./PublishedMediaPage.css";
@@ -36,6 +37,7 @@ function PublishedMediaPage() {
           {activeTab === "photos" ? <PhotoGallery /> : <VideoGallery />}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

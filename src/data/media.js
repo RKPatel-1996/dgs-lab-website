@@ -52,11 +52,6 @@ export const photoData = [
 // and that these video files exist.
 export const videoData = [
   {
-    id: "Video_14",
-    src: "public/lab-videos/Video_14.mp4",
-    caption: "Video showing stable binding within binding cavity.",
-  },
-  {
     id: "Video_15.mp4",
     src: "public/lab-videos/Video_15.mp4",
     caption: "Video showing unstable binding within binding cavity.",

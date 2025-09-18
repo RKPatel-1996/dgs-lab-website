@@ -1,7 +1,8 @@
 // src/pages/ResearchPage.jsx
 
 import React from "react";
-import Navbar from "../components/Navbar.jsx"; // Import the Navbar
+import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer";
 import "./ResearchPage.css"; // We'll create this CSS file next
 
 function ResearchPage() {
@@ -71,6 +72,7 @@ function ResearchPage() {
           </section>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@
 import React, { useState, useMemo } from "react";
 import Papa from "papaparse";
 import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer";
 import PublicationCard from "../components/PublicationCard.jsx";
 import { usePublicationData } from "../hooks/usePublicationData.js";
 import { allMembers } from "../data/members.js";
@@ -131,6 +132,7 @@ function PublicationsPage() {
           </>
         )}
       </main>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 import {
   FaMapMarkerAlt,
   FaEnvelope,
@@ -86,6 +88,7 @@ function ContactPage() {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
