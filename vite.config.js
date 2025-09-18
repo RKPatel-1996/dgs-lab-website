@@ -1,7 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
+  // This line MUST be correct for GitHub Pages to work
+  base: "/dgs-lab-website/",
   plugins: [react()],
-})
+});
